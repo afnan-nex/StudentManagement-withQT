@@ -83,12 +83,12 @@ CMakeFiles/StudentManagement.dir/all: CMakeFiles/StudentManagement_autogen_times
 CMakeFiles/StudentManagement.dir/all: CMakeFiles/StudentManagement_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target StudentManagement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target StudentManagement"
 .PHONY : CMakeFiles/StudentManagement.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StudentManagement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StudentManagement.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles 0
 .PHONY : CMakeFiles/StudentManagement.dir/rule
@@ -135,7 +135,7 @@ CMakeFiles/StudentManagement_autogen_timestamp_deps.dir/clean:
 CMakeFiles/StudentManagement_autogen.dir/all: CMakeFiles/StudentManagement_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement_autogen.dir\build.make CMakeFiles/StudentManagement_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement_autogen.dir\build.make CMakeFiles/StudentManagement_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=7 "Built target StudentManagement_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=8 "Built target StudentManagement_autogen"
 .PHONY : CMakeFiles/StudentManagement_autogen.dir/all
 
 # Build rule for subdir invocation for target.

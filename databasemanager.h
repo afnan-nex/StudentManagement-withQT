@@ -10,6 +10,7 @@ public:
 
     bool connectDatabase();
     void createTables();
+    void createDefaultAdmin();
 
 private:
     QSqlDatabase db;

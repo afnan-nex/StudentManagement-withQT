@@ -199,6 +199,30 @@ StudentManagement_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement_autogen.dir\build.make CMakeFiles/StudentManagement_autogen.dir/build
 .PHONY : StudentManagement_autogen/fast
 
+DashboardWindow.obj: DashboardWindow.cpp.obj
+.PHONY : DashboardWindow.obj
+
+# target to build an object file
+DashboardWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj
+.PHONY : DashboardWindow.cpp.obj
+
+DashboardWindow.i: DashboardWindow.cpp.i
+.PHONY : DashboardWindow.i
+
+# target to preprocess a source file
+DashboardWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.i
+.PHONY : DashboardWindow.cpp.i
+
+DashboardWindow.s: DashboardWindow.cpp.s
+.PHONY : DashboardWindow.s
+
+# target to generate assembly for a file
+DashboardWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.s
+.PHONY : DashboardWindow.cpp.s
+
 StudentManagement_autogen/mocs_compilation.obj: StudentManagement_autogen/mocs_compilation.cpp.obj
 .PHONY : StudentManagement_autogen/mocs_compilation.obj
 
@@ -247,6 +271,30 @@ databasemanager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/databasemanager.cpp.s
 .PHONY : databasemanager.cpp.s
 
+loginwindow.obj: loginwindow.cpp.obj
+.PHONY : loginwindow.obj
+
+# target to build an object file
+loginwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj
+.PHONY : loginwindow.cpp.obj
+
+loginwindow.i: loginwindow.cpp.i
+.PHONY : loginwindow.i
+
+# target to preprocess a source file
+loginwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/loginwindow.cpp.i
+.PHONY : loginwindow.cpp.i
+
+loginwindow.s: loginwindow.cpp.s
+.PHONY : loginwindow.s
+
+# target to generate assembly for a file
+loginwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/loginwindow.cpp.s
+.PHONY : loginwindow.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -271,30 +319,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.obj: mainwindow.cpp.obj
-.PHONY : mainwindow.obj
-
-# target to build an object file
-mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj
-.PHONY : mainwindow.cpp.obj
-
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StudentManagement.dir\build.make CMakeFiles/StudentManagement.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -310,18 +334,21 @@ help:
 	@echo ... StudentManagement_autogen
 	@echo ... StudentManagement_autogen_timestamp_deps
 	@echo ... StudentManagement
+	@echo ... DashboardWindow.obj
+	@echo ... DashboardWindow.i
+	@echo ... DashboardWindow.s
 	@echo ... StudentManagement_autogen/mocs_compilation.obj
 	@echo ... StudentManagement_autogen/mocs_compilation.i
 	@echo ... StudentManagement_autogen/mocs_compilation.s
 	@echo ... databasemanager.obj
 	@echo ... databasemanager.i
 	@echo ... databasemanager.s
+	@echo ... loginwindow.obj
+	@echo ... loginwindow.i
+	@echo ... loginwindow.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mainwindow.obj
-	@echo ... mainwindow.i
-	@echo ... mainwindow.s
 .PHONY : help
 
 

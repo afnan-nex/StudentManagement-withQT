@@ -1,7 +1,6 @@
-CMakeFiles/StudentManagement.dir/StudentManagement_autogen/mocs_compilation.cpp.obj: \
- C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\StudentManagement_autogen\mocs_compilation.cpp \
- C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\StudentManagement_autogen\EWIEGA46WW/moc_DashboardWindow.cpp \
- C:/Users/Admin/Documents/StudentManagement/DashboardWindow.h \
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj: \
+ C:\Users\Admin\Documents\StudentManagement\loginwindow.cpp \
+ C:\Users\Admin\Documents\StudentManagement\loginwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -387,24 +386,61 @@ CMakeFiles/StudentManagement.dir/StudentManagement_autogen/mocs_compilation.cpp.
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlTableModel \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlglobal.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsql-config.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qtsqlexports.h \
  C:/Qt/6.11.1/mingw_64/include/QtSql/qsqldatabase.h \
  C:/Qt/6.11.1/mingw_64/include/QtCore/qmetaobject.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquerymodel.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qabstractitemmodel.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.1/mingw_64/include/QtCore/q20algorithm.h \
- C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\StudentManagement_autogen\EWIEGA46WW/moc_loginwindow.cpp \
- C:/Users/Admin/Documents/StudentManagement/loginwindow.h \
- C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlQuery \
- C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquery.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:/Users/Admin/Documents/StudentManagement/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/StudentManagement_autogen/include/ui_loginwindow.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/QVariant \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qeventloop.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qdeadlinetimer.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qnativeinterface.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qinputmethod.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFormLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qformlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLayout \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QFrame \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QLineEdit \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qlineedit.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.11.1/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QPushButton \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/qabstractbutton.h \
+ C:/Qt/6.11.1/mingw_64/include/QtWidgets/QWidget \
+ C:\Users\Admin\Documents\StudentManagement\DashboardWindow.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/QSqlTableModel \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqltablemodel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtSql/qsqlquerymodel.h \
+ C:/Qt/6.11.1/mingw_64/include/QtCore/qabstractitemmodel.h

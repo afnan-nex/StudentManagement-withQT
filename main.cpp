@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "loginwindow.h"
 #include "DatabaseManager.h"
 
 #include <QApplication>
@@ -14,8 +14,9 @@ int main(int argc, char *argv[])
     }
 
     db.createTables();
+    db.createDefaultAdmin();
 
-    MainWindow w;
+    LoginWindow w;
     w.show();
 
     return a.exec();

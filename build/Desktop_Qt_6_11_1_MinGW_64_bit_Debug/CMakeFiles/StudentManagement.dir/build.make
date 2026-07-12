@@ -105,20 +105,20 @@ CMakeFiles/StudentManagement.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManagement.dir/main.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\StudentManagement\main.cpp -o CMakeFiles\StudentManagement.dir\main.cpp.s
 
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj: CMakeFiles/StudentManagement.dir/flags.make
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj: CMakeFiles/StudentManagement.dir/includes_CXX.rsp
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj: C:/Users/Admin/Documents/StudentManagement/mainwindow.cpp
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj: CMakeFiles/StudentManagement.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj -MF CMakeFiles\StudentManagement.dir\mainwindow.cpp.obj.d -o CMakeFiles\StudentManagement.dir\mainwindow.cpp.obj -c C:\Users\Admin\Documents\StudentManagement\mainwindow.cpp
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj: CMakeFiles/StudentManagement.dir/flags.make
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj: CMakeFiles/StudentManagement.dir/includes_CXX.rsp
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj: C:/Users/Admin/Documents/StudentManagement/DashboardWindow.cpp
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj: CMakeFiles/StudentManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj -MF CMakeFiles\StudentManagement.dir\DashboardWindow.cpp.obj.d -o CMakeFiles\StudentManagement.dir\DashboardWindow.cpp.obj -c C:\Users\Admin\Documents\StudentManagement\DashboardWindow.cpp
 
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManagement.dir/mainwindow.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\StudentManagement\mainwindow.cpp > CMakeFiles\StudentManagement.dir\mainwindow.cpp.i
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\StudentManagement\DashboardWindow.cpp > CMakeFiles\StudentManagement.dir\DashboardWindow.cpp.i
 
-CMakeFiles/StudentManagement.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManagement.dir/mainwindow.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\StudentManagement\mainwindow.cpp -o CMakeFiles\StudentManagement.dir\mainwindow.cpp.s
+CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\StudentManagement\DashboardWindow.cpp -o CMakeFiles\StudentManagement.dir\DashboardWindow.cpp.s
 
 CMakeFiles/StudentManagement.dir/databasemanager.cpp.obj: CMakeFiles/StudentManagement.dir/flags.make
 CMakeFiles/StudentManagement.dir/databasemanager.cpp.obj: CMakeFiles/StudentManagement.dir/includes_CXX.rsp
@@ -135,20 +135,37 @@ CMakeFiles/StudentManagement.dir/databasemanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManagement.dir/databasemanager.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\StudentManagement\databasemanager.cpp -o CMakeFiles\StudentManagement.dir\databasemanager.cpp.s
 
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj: CMakeFiles/StudentManagement.dir/flags.make
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj: CMakeFiles/StudentManagement.dir/includes_CXX.rsp
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj: C:/Users/Admin/Documents/StudentManagement/loginwindow.cpp
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj: CMakeFiles/StudentManagement.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj -MF CMakeFiles\StudentManagement.dir\loginwindow.cpp.obj.d -o CMakeFiles\StudentManagement.dir\loginwindow.cpp.obj -c C:\Users\Admin\Documents\StudentManagement\loginwindow.cpp
+
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StudentManagement.dir/loginwindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Documents\StudentManagement\loginwindow.cpp > CMakeFiles\StudentManagement.dir\loginwindow.cpp.i
+
+CMakeFiles/StudentManagement.dir/loginwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StudentManagement.dir/loginwindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Documents\StudentManagement\loginwindow.cpp -o CMakeFiles\StudentManagement.dir\loginwindow.cpp.s
+
 # Object files for target StudentManagement
 StudentManagement_OBJECTS = \
 "CMakeFiles/StudentManagement.dir/StudentManagement_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/StudentManagement.dir/main.cpp.obj" \
-"CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj" \
-"CMakeFiles/StudentManagement.dir/databasemanager.cpp.obj"
+"CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj" \
+"CMakeFiles/StudentManagement.dir/databasemanager.cpp.obj" \
+"CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj"
 
 # External object files for target StudentManagement
 StudentManagement_EXTERNAL_OBJECTS =
 
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/StudentManagement_autogen/mocs_compilation.cpp.obj
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/main.cpp.obj
-StudentManagement.exe: CMakeFiles/StudentManagement.dir/mainwindow.cpp.obj
+StudentManagement.exe: CMakeFiles/StudentManagement.dir/DashboardWindow.cpp.obj
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/databasemanager.cpp.obj
+StudentManagement.exe: CMakeFiles/StudentManagement.dir/loginwindow.cpp.obj
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/build.make
 StudentManagement.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Widgets.a
 StudentManagement.exe: C:/Qt/6.11.1/mingw_64/lib/libQt6Sql.a
@@ -159,7 +176,7 @@ StudentManagement.exe: StudentManagement.exe.manifest
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/linkLibs.rsp
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/objects1.rsp
 StudentManagement.exe: CMakeFiles/StudentManagement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable StudentManagement.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Documents\StudentManagement\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable StudentManagement.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StudentManagement.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -14,9 +14,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Sql)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        DashboardWindow.cpp
+        DashboardWindow.h
+        DashboardWindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -24,6 +24,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         databasemanager.h databasemanager.cpp
+        loginwindow.h loginwindow.cpp loginwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET StudentManagement APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
